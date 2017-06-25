@@ -12,8 +12,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func buttonClicked(_ sender: UIButton) {
-        print("This is a Git tutorial")
+        
+        showTexttoUser.text = "You have Clicked"
+        
     }
+    
+    
+    @IBOutlet var showTexttoUser: UILabel!
+    
+    
     
 
     override func viewDidLoad() {
