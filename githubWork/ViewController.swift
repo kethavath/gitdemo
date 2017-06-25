@@ -17,12 +17,21 @@ class ViewController: UIViewController {
         
     }
     
+    @IBOutlet var newOutlet: UILabel!
     
     @IBOutlet var showTexttoUser: UILabel!
     
     
+  
     
-
+    
+@IBAction func loginClicked(_ sender: UIButton){
+    
+    newOutlet.text = "I cant Login"
+    
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
