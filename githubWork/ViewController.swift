@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        print("This is a Git tutorial")
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
