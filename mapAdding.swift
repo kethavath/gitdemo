@@ -10,6 +10,9 @@ import UIKit
 
 class mapAdding: NSObject {
     
+    func sayHello() {
+        print("Hello from MapForItinerary")
+    }
     
 
 }
