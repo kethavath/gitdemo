@@ -23,7 +23,11 @@ class ViewController: UIViewController {
     
 let first = "tukaram"
   
-    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        print("Application did finish launching")
+        return true
+    }
     
 @IBAction func loginClicked(_ sender: UIButton){
     
