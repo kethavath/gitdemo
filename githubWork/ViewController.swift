@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         
         showTexttoUser.text = "You have Clicked"
         
+        print("you are allset")
+        
     }
     
     @IBOutlet var newOutlet: UILabel!
